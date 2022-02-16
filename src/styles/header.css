@@ -1,0 +1,18 @@
+#basic-navbar-nav{
+    justify-content: space-around !important;
+    width: 20rem;
+    
+}
+.me-auto{
+    justify-content: space-around !important;
+}
+.NavItem{
+    font-size: 1.2rem;
+    width: 9rem;
+    color: #f3e718 !important;
+    text-decoration: none !important;
+} 
+#logo{
+    width: 15rem;
+    height: 5rem;
+}
