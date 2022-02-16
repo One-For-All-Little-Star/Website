@@ -1,0 +1,6 @@
+.Container{
+    width: 100% !important;
+    height: 50rem;
+    background-size: cover;
+    background-image: url('../../public/assets/images/background/index.gif');
+}
