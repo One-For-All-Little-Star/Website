@@ -34,7 +34,7 @@ function Header(props) {
               Giới Thiệu
             </Nav.Link>
             <Nav.Link className="NavItem" href="#link">
-              Liện Hệ
+              Liên Hệ
             </Nav.Link>
             <Nav.Link className="NavItem" href="#link">
               Tải Về
