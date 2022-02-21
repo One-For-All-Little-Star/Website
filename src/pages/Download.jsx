@@ -2,7 +2,7 @@ import React from "react";
 
 function Download(props) {
   return (
-    <div>
+    <div id="download">
       <h1>Download</h1>
     </div>
   );

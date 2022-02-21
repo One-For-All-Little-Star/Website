@@ -7,12 +7,13 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Download from "../pages/Download";
 import { Container } from "react-bootstrap";
+import "../styles/index.css";
 
 function index(props) {
   return (
     <div>
       <Header></Header>
-      <Container fluid>
+      <Container fluid id="swup" className="transition-fade">
         <Home />
         <Features />
         <Tutorial />

@@ -7,13 +7,13 @@ function Header(props) {
       <Container id="header">
         <Navbar id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="NavItem" href="#">
+            <Nav.Link className="NavItem" href="#home">
               Trang Chủ
             </Nav.Link>
             <Nav.Link className="NavItem" href="#features">
               Tính Năng
             </Nav.Link>
-            <Nav.Link className="NavItem" href="/tutorial">
+            <Nav.Link className="NavItem" href="#tutorial">
               Hướng Dẫn
             </Nav.Link>
           </Nav>
@@ -21,8 +21,6 @@ function Header(props) {
         <Navbar href="#home">
           <img
             src="assets/images/logo/Logo.png"
-            width="200"
-            height="60"
             className="d-inline-block align-top"
             id="logo"
             alt="Little star logo"
@@ -30,13 +28,13 @@ function Header(props) {
         </Navbar>
         <Navbar id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="NavItem" href="#home">
+            <Nav.Link className="NavItem" href="#about">
               Giới Thiệu
             </Nav.Link>
-            <Nav.Link className="NavItem" href="#link">
-              Liên Hệ
+            <Nav.Link className="NavItem" href="#contact">
+              Liện Hệ
             </Nav.Link>
-            <Nav.Link className="NavItem" href="#link">
+            <Nav.Link className="NavItem" href="#download">
               Tải Về
             </Nav.Link>
           </Nav>
