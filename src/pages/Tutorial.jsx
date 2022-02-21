@@ -2,7 +2,7 @@ import React from "react";
 
 function Tutorial(props) {
   return (
-    <div>
+    <div id="tutorial">
       <h1>Tutorial</h1>
     </div>
   );

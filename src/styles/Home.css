@@ -1,6 +1,13 @@
-.Container{
+#home{
     width: 100% !important;
     height: 50rem;
     background-size: cover;
     background-image: url('../../public/assets/images/background/index.gif');
+}
+#header_blank{
+    height: 20%;
+}
+#mockup{
+    width: 100% !important;
+    height: auto;
 }
