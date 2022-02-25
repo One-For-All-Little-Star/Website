@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "../components/CarouselPage";
-import "../styles/about.css";
+import "../styles/About.css";
 
 function About(props) {
   return (
