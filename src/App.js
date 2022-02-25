@@ -8,7 +8,8 @@ import Tutorial from "./pages/Tutorial";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Download from "./pages/Download";
-import SignIn from "./components/Form";
+
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 export default function App() {
   return (
     <BrowserRouter>
@@ -23,7 +24,10 @@ export default function App() {
           <Route exact path="/download" element={<Download />}></Route>
         </Routes>
       </Container> */}
-      <NavLink to='/SignIn'><button>SignIn</button></NavLink>
+ 
+      <MessengerCustomerChat
+    pageId="101660712332854"
+    appId="4794169103992534" />,
     </BrowserRouter>
     
   );
