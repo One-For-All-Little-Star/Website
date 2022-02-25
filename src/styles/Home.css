@@ -1,8 +1,9 @@
 #home{
-    width: 100% !important;
-    height: 50rem;
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
-    background-image: url('../../public/assets/images/background/index.gif');
+    background-image: url('../../public/assets/images/background/night_hill.gif');
+    background-position: bottom !important;
 }
 #header_blank{
     height: 20%;
@@ -10,4 +11,34 @@
 #mockup{
     width: 100% !important;
     height: auto;
+}
+#content_home{
+    text-align: center;
+}
+#content_home h2{
+    color: #f3e718;
+}
+#content_home p{
+    font-size: 1.2rem;
+    color: #ffff;
+}
+.content_home{
+    padding-left: 10%;
+}
+.btn_home{
+    font-size: 1.2rem;
+    width: 20rem;
+    border-radius: 50px;
+    height: fit-content;
+    color: #ffff;
+    background-color: #dbd117;
+    border: none;
+
+}
+.btn_home:hover{
+    width: 30rem;
+    color: #f3e718;
+    background-color: transparent;
+    border: 3px solid #f3e718;
+
 }

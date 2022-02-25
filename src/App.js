@@ -8,11 +8,10 @@ import Tutorial from "./pages/Tutorial";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Download from "./pages/Download";
-import SignIn from "./components/Form";
 export default function App() {
   return (
     <BrowserRouter>
-      {/* <Header></Header>
+      <Header></Header>
       <Container fluid className="App">
         <Routes>
           <Route index element={<Index />} />
@@ -22,9 +21,7 @@ export default function App() {
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/download" element={<Download />}></Route>
         </Routes>
-      </Container> */}
-      <NavLink to='/SignIn'><button>SignIn</button></NavLink>
+      </Container>
     </BrowserRouter>
-    
   );
 }

@@ -1,0 +1,67 @@
+#download{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('../../public/assets/images/download/backLittle.jpg');
+}
+#header_blank{
+    height: 20% !important;
+
+  }
+.btn_download{
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    color: #f3e718;
+    background-color: #ffff;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    animation: xoayvong 8s linear 0s infinite;
+    -webkit-animation: xoayvong 8s linear 0s infinite;
+    -moz-animation: xoayvong 8s linear 0s infinite;
+    -o-animation: xoayvong 8s linear 0s infinite; 
+}
+.btn_download:hover{
+    color: #ffff;
+    background-color: #f3e718;
+}
+#icon_download{
+    color: #f3e718 !important;
+    font-size: 3.5rem;
+} 
+#icon_download:hover{
+    color: #ffff !important;
+} 
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
+  /* Standard syntax */ 
+  @keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
+
+#googlePlay{
+    width: 14rem;
+    height: 14rem;
+}

@@ -13,14 +13,14 @@ function index(props) {
   return (
     <div>
       <Header></Header>
-      <Container fluid id="swup" className="transition-fade">
+      <div fluid id="main">
         <Home />
         <Features />
         <Tutorial />
         <About />
         <Contact />
         <Download />
-      </Container>
+      </div>
     </div>
   );
 }

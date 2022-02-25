@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { Button, Nav, Navbar, Container } from "react-bootstrap";
+import React from "react";
+import { Nav, Navbar, Container } from "react-bootstrap";
 import "../styles/header.css";
+
 function Header(props) {
   return (
     <Navbar expand="lg" fixed="top">
@@ -32,7 +33,7 @@ function Header(props) {
               Giới Thiệu
             </Nav.Link>
             <Nav.Link className="NavItem" href="#contact">
-              Liện Hệ
+              Liên Hệ
             </Nav.Link>
             <Nav.Link className="NavItem" href="#download">
               Tải Về
