@@ -4432,19 +4432,30 @@
 #container_feature{
   justify-content: center;
   align-content: center;
+  padding-left: 3rem !important;
 }
 #container_feature h1{
   color: #fff;
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  margin-left: 1rem;
 }
 .content_feature{
   color: #fff;
   text-align: center;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+#img_feature{
+  width: 70% !important;
+  margin-bottom: 1rem;
 }
 #features{
-  width: 100% !important;
-  height: 50rem !important;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-image: url('../../public/assets/images/background/mountoon.gif');
+}
+#header_blank{
+  height: 20% !important;
 }
