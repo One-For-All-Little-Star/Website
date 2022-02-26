@@ -8,7 +8,7 @@ import Contact from "../pages/Contact";
 import Download from "../pages/Download";
 import { Container } from "react-bootstrap";
 import "../styles/index.css";
-
+import ChatMessenger from "../components/ChatMessenger";
 function index(props) {
   return (
     <div>
@@ -20,7 +20,9 @@ function index(props) {
         <About />
         <Contact />
         <Download />
+        <ChatMessenger/>
       </Container>
+
     </div>
   );
 }

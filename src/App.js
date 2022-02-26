@@ -9,11 +9,11 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Download from "./pages/Download";
 
-import MessengerCustomerChat from 'react-messenger-customer-chat';
+import MessengerCustomerChat from "react-messenger-customer-chat";
 export default function App() {
   return (
     <BrowserRouter>
-      {/* <Header></Header>
+      <Header></Header>
       <Container fluid className="App">
         <Routes>
           <Route index element={<Index />} />
@@ -23,12 +23,9 @@ export default function App() {
           <Route exact path="/contact" element={<Contact />}></Route>
           <Route exact path="/download" element={<Download />}></Route>
         </Routes>
-      </Container> */}
- 
-      <MessengerCustomerChat
-    pageId="101660712332854"
-    appId="4794169103992534" />,
+      </Container>
+
     </BrowserRouter>
-    
   );
 }
+ 
