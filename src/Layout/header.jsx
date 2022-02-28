@@ -1,5 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
+import { Link } from "react-scroll";
+
 import "../styles/header.css";
 
 function Header(props) {
@@ -8,36 +10,56 @@ function Header(props) {
       <Container id="header">
         <Navbar id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="NavItem" href="#home">
+            <Link className="NavItem" to="home" smooth={true} duration={1000}>
               Trang Chủ
-            </Nav.Link>
-            <Nav.Link className="NavItem" href="#features">
+            </Link>
+            <Link
+              className="NavItem"
+              to="features"
+              smooth={true}
+              duration={1000}
+            >
               Tính Năng
-            </Nav.Link>
-            <Nav.Link className="NavItem" href="#tutorial">
+            </Link>
+            <Link
+              className="NavItem"
+              to="tutorial"
+              smooth={true}
+              duration={1000}
+            >
               Hướng Dẫn
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar>
-        <Navbar href="#home">
+        <Link to="home">
           <img
             src="assets/images/logo/Logo.png"
             className="d-inline-block align-top"
             id="logo"
             alt="Little star logo"
           />
-        </Navbar>
+        </Link>
         <Navbar id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="NavItem" href="#about">
+            <Link className="NavItem" to="about" smooth={true} duration={1000}>
               Giới Thiệu
-            </Nav.Link>
-            <Nav.Link className="NavItem" href="#contact">
+            </Link>
+            <Link
+              className="NavItem"
+              to="contact"
+              smooth={true}
+              duration={1000}
+            >
               Liên Hệ
-            </Nav.Link>
-            <Nav.Link className="NavItem" href="#download">
+            </Link>
+            <Link
+              className="NavItem"
+              to="download"
+              smooth={true}
+              duration={1000}
+            >
               Tải Về
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar>
       </Container>
