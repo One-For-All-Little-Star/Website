@@ -7,7 +7,6 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Download from "../pages/Download";
 import { FullPage, Slide } from "react-full-page";
-import "../styles/index.css";
 import ChatMessenger from "../components/ChatMessenger";
 function index(props) {
   return (
@@ -32,7 +31,6 @@ function index(props) {
         <Slide>
           <Download />
         </Slide>
-
         <ChatMessenger />
       </FullPage>
     </div>

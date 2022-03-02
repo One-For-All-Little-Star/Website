@@ -103,8 +103,8 @@
   display: none;
 }
 .ih-item.circle.effect1.colored .info {
-  background: #1a4a72;
-  background: rgba(26, 74, 114, 0.6);
+  background: #f3e718;
+  background: #f3e718(26, 74, 114, 0.6);
 }
 .ih-item.circle.effect1 .info {
   top: 10px;
@@ -4429,10 +4429,16 @@
   -o-transform: rotateX(0);
   transform: rotateX(0);
 }
+@keyframes animation {
+  0%   {padding-left: 0 }
+  100% {padding-left: 3rem }
+}
 #container_feature{
   justify-content: center;
   align-content: center;
   padding-left: 3rem !important;
+  animation-name: animation;
+  animation-duration: 2s;
 }
 #container_feature h1{
   color: #fff;
