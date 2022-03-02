@@ -27,7 +27,7 @@
     width: 100%;
     height: 5rem;
 }
-.active{
+.highlight {
     background: rgba(250, 238, 8, 0.4);
     transform: rotate(2deg);
     border-radius: 20% 25% 20% 24%;

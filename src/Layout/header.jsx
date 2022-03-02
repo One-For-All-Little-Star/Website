@@ -50,7 +50,7 @@ function Header() {
             <Scrollspy
               className="scrollspy"
               items={["about", "contact", "download"]}
-              currentClassName="active"
+              currentClassName="highlight "
             >
               <Link
                 className="NavItem"
