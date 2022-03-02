@@ -13,15 +13,15 @@ function Download(props) {
         <Col lg="1"></Col>
         <Col lg="1"></Col>
         <Col lg="1"></Col>
-        <Col lg="1"></Col>
-        <Col lg="1">
+        <Col lg="3">
+          <Row id="header_blank"></Row>
+          <Col></Col>
           <img
-            src="assets/images/download/google-play-button.svg"
+            src="assets/images/download/google-play-button.png"
             className="d-inline-block"
             id="googlePlay"
           />
         </Col>
-        <Col lg="1"></Col>
         <Col lg="1"></Col>
         <Col lg="1">
           <Container className="btn_download">

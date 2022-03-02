@@ -11,7 +11,7 @@ function Features() {
           <Row>
             <div className="col-sm-4">
               {/* Circle 1*/}
-              <div className="ih-item circle effect2 left_to_right">
+              <div className="ih-item circle colored effect2 left_to_right">
                 <a href="#">
                   <div className="img">
                     <img src="assets/images/feature/letter.jpg" alt="img" />
@@ -31,7 +31,7 @@ function Features() {
             </div>
             <div className="col-sm-4">
               {/* Circle 2 */}
-              <div className="ih-item circle effect2 left_to_right">
+              <div className="ih-item circle colored effect2 left_to_right">
                 <a href="#">
                   <div className="img">
                     <img src="assets/images/feature/fairy.jpg" alt="img" />
@@ -48,13 +48,13 @@ function Features() {
             </div>
             <div className="col-sm-4">
               {/* Circle 3 */}
-              <div className="ih-item circle effect2 left_to_right">
+              <div className="ih-item circle colored effect2 left_to_right">
                 <a href="#">
                   <div className="img">
                     <img src="assets/images/feature/level map.png" alt="img" />
                   </div>
                   <div className="info">
-                    <h3>Theo dõi quá trình</h3>
+                    <h3>Theo dõi Học tập</h3>
                   </div>
                 </a>
                 <p className="content_feature">

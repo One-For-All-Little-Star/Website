@@ -18,15 +18,32 @@
 .form-block{
     margin-top: 1rem;
 }
+#col_phone_row{
+    height: 100%;
+}
 #phone_form{
-    width: 40vw;
-    height: 32vh;
-    background-color: black;
-    opacity: 80%;
-    border-radius: 50px;
+    width: 100%;
+    height: 100%;
     padding: 2rem;
     color: #ffff;
     text-align: center;
+
+}
+.overlay{
+    z-index: -1;
+    border-radius: 50px;
+    background-color: black;
+    opacity: 80%;
+    width: 100%;
+    height: 100% !important;
+}
+#background{
+    width: 100%;
+    height: 100% !important;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../public/assets/images/contact/back.jpg');
 }
 .numberPhone{
     font-size: 1.4rem; 
@@ -34,7 +51,59 @@
     opacity: 80%;
 }
 #phone_icon{
-    font-size:2rem;
+    font-size:1rem;
     color: black;
     opacity: 80%;
+}
+#email{
+    width: 100%;
+    height: 100%;
+}
+#content_icon{
+    width: auto;
+    height: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center
+}
+#icon_phone{
+    width: auto;
+    height: 100%;
+    position: absolute;
+}
+
+/* CSS */
+.btn_contact {
+  background: linear-gradient(to bottom right, #f3e718, #f3eb52);
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  line-height: 1.5;
+  outline: transparent;
+  padding: 0 1rem;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.btn_contact:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(218, 169, 8, 0.5), -.125rem -.125rem 1rem rgba(246, 250, 6, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn_contact:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(206, 193, 15, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.form-control{
+    border-radius: 50px;
+}
+.btn_submit{
+    font-size: 1.4rem; 
+    width: 80%;
+    text-align: center;
+}
+#block-btn{
+    display: flex;
+    justify-content: space-around;
 }

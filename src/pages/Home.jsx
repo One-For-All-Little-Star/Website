@@ -16,10 +16,10 @@ export default function Home() {
               hấp dẫn cùng với những câu đố thú vị đang chờ bạn. Còn chần chừ gì
               nữa hãy trải nghiệm ứng dụng ngay nào!
             </p>
-            <button className="btn_home"> Tải ngay </button>
+            <button className="custom-btn btn_home"> Tải ngay </button>
           </div>
         </Col>
-        <Col lg="7">
+        <Col lg="7" className="mockup_home">
           <img
             src="assets/images/home/mockup.png"
             className="d-inline-block"
