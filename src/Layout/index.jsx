@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./header";
 import Home from "../pages/Home";
 import Features from "../pages/Features";
 import Tutorial from "../pages/Tutorial";

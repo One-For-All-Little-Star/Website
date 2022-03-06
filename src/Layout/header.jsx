@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import Scrollspy from "react-scrollspy";
