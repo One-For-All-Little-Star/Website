@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./Layout/index";
-import Header from "./Layout/header";
+import Index from "./Layout/Index";
+import Header from "./Layout/Header";
 import Features from "./pages/Features";
 import Tutorial from "./pages/Tutorial";
 import About from "./pages/About";
@@ -25,4 +25,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
- 

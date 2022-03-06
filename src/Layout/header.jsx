@@ -13,7 +13,7 @@ function Header() {
             <Scrollspy
               className="scrollspy"
               items={["home", "features", "tutorial"]}
-              currentClassName="active"
+              currentClassName="highlight"
             >
               <Link className="NavItem" to="home" smooth={true} duration={1000}>
                 Trang Chủ

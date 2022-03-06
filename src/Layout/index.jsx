@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./header";
+import Header from "./Header";
 import Home from "../pages/Home";
 import Features from "../pages/Features";
 import Tutorial from "../pages/Tutorial";
@@ -8,7 +8,8 @@ import Contact from "../pages/Contact";
 import Download from "../pages/Download";
 import { FullPage, Slide } from "react-full-page";
 import ChatMessenger from "../components/ChatMessenger";
-function index(props) {
+
+function Index(props) {
   return (
     <div>
       <Header></Header>
@@ -37,4 +38,4 @@ function index(props) {
   );
 }
 
-export default index;
+export default Index;
