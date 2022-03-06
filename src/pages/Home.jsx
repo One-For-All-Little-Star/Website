@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
-import "../styles/Home.css";
+import "../styles/home.css";
 export default function Home() {
   return (
     <Container fluid className="transition-fade" id="home">

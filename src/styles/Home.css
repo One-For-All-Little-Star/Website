@@ -14,17 +14,21 @@
   justify-items: center;
 }
 @keyframes scale {
-  0%   {width: 50%;}
-  25%  {width: 60%;}
-  50%  {width: 70%;}
-  75%  {width: 90%;}
-  100% {width: 100%;}
+from {width: 40%;
+    opacity: 0;
+}
+to {width: 95%;
+opacity: 1;}
 }
 #mockup{
-  width: 100%;
+  width: 95%;
   height: auto;
   animation-name: scale;
-  animation-duration: 2s;
+  animation-duration: 2s ;
+}
+#mockup:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
 }
 #content_home{
     text-align: center;
@@ -33,7 +37,7 @@
     color: #f3e718;
 }
 #content_home p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #ffff;
 }
 .content_home{

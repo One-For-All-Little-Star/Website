@@ -4430,13 +4430,15 @@
   transform: rotateX(0);
 }
 @keyframes animation {
-  0%   {padding-left: 0 }
-  100% {padding-left: 3rem }
+  from   {padding-left: 0;
+    opacity: 0;}
+  to {padding-left: 3rem;
+    opacity: 1;}
 }
 #container_feature{
   justify-content: center;
   align-content: center;
-  padding-left: 3rem !important;
+  padding-left: 3rem;
   animation-name: animation;
   animation-duration: 2s;
 }
