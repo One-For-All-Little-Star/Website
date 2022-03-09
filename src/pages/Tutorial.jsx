@@ -8,10 +8,9 @@ function Tutorial(props) {
     <div id="tutorial">
       <Row id="header_blank"></Row>
       <Row id="banner_video">
-        <Col id="video">
+        <Col>
           <iframe
-            width="100%"
-            height="100%"
+            id="video"
             src="https://www.youtube.com/embed/VSapCTmw31g"
             title="YouTube video player"
             frameborder="0"
