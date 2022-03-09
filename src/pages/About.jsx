@@ -16,8 +16,8 @@ function About() {
             giúp các em nhỏ tăng khả năng tiếp thu ngôn ngữ đặc biệt là ngôn ngữ
             tiếng việt, hỗ trợ cho quá trình học tập và tạo hứng thú, động lực
             cho trẻ. Ngoài ra, để tránh các em tiếp xúc với nội dung độc hại,
-            phản cảm chúng tôi cung cấp nội dung truyện cổ tích phù hợp với lứa
-            tuổi thiếu nhi.
+            Không phù hợp, chúng tôi cung cấp nội dung truyện cổ tích phù hợp
+            với lứa tuổi thiếu nhi.
           </p>
         </div>
 

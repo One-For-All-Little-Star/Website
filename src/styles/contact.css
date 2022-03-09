@@ -107,3 +107,28 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .numberPhone{
+        font-size: 1rem; 
+    }
+    #phone_form h5{
+        font-size: 1rem;
+    }
+    #icon_phone{
+        display: none;
+        position: relative;
+    }
+    #content_icon{
+        height: 0;
+    }
+    #email_form{
+        display: flex;
+        justify-content: space-around;
+    }
+  }
+ 
+  @media only screen and (max-width: 426px) {
+
+  }
