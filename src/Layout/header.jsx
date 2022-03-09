@@ -15,36 +15,26 @@ function Header() {
               items={["home", "features", "tutorial"]}
               currentClassName="highlight"
             >
-              <Link className="NavItem" to="home" smooth={true} duration={1000}>
+              <a className="NavItem" href="#home">
                 Trang Chủ
-              </Link>
-              <Link
-                className="NavItem"
-                to="features"
-                smooth={true}
-                duration={1000}
-              >
+              </a>
+              <a className="NavItem" href="#features">
                 Tính Năng
-              </Link>
-              <Link
-                className="NavItem"
-                to="tutorial"
-                smooth={true}
-                duration={1000}
-              >
+              </a>
+              <a className="NavItem" href="#tutorial">
                 Hướng Dẫn
-              </Link>
+              </a>
             </Scrollspy>
           </Nav>
         </Navbar>
-        <Link to="home" className="logo_app">
+        <a href="#home" className="logo_app">
           <img
             src="assets/images/logo/Logo.png"
             className="d-inline-block align-top"
             id="logo"
             alt="Little star logo"
           />
-        </Link>
+        </a>
         <Navbar id="basic-navbar-nav">
           <Nav className="me-auto" id="menu">
             <Scrollspy
@@ -52,30 +42,15 @@ function Header() {
               items={["about", "contact", "download"]}
               currentClassName="highlight "
             >
-              <Link
-                className="NavItem"
-                to="about"
-                smooth={true}
-                duration={1000}
-              >
+              <a className="NavItem" href="#about">
                 Giới Thiệu
-              </Link>
-              <Link
-                className="NavItem"
-                to="contact"
-                smooth={true}
-                duration={1000}
-              >
+              </a>
+              <a className="NavItem" href="#contact">
                 Liên Hệ
-              </Link>
-              <Link
-                className="NavItem"
-                to="download"
-                smooth={true}
-                duration={1000}
-              >
+              </a>
+              <a className="NavItem" href="#download">
                 Tải Về
-              </Link>
+              </a>
             </Scrollspy>
           </Nav>
         </Navbar>
