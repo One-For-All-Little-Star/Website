@@ -4,10 +4,6 @@
     background-size: cover;
     background-image: url('../../public/assets/images/download/backLittle.jpg');
 }
-#header_blank{
-    height: 20% !important;
-
-  }
 .btn_download{
     border-radius: 50%;
     width: 12rem;
