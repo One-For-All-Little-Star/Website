@@ -4467,3 +4467,34 @@
 #header_blank{
   height: 20% !important;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .ih-item.circle {
+    width: 180px;
+    height: 180px;
+  }
+  .ih-item.circle .img {
+    position: relative;
+    width: 180px;
+    height: 180px;
+  }
+
+}
+
+@media only screen and (max-width: 426px) {
+  #header_blank{
+    height: 15%;
+  }
+  .ih-item.circle {
+    width: 150px;
+    height: 150px;
+  }
+  .ih-item.circle .img {
+    width: 100px;
+    height: 100px;
+  }
+  #img_feature{
+    display: none;
+  }
+}
