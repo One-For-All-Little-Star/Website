@@ -11,6 +11,9 @@
     color: #f3e718;
     font-size: 1.4rem;
 }
+#content_about p{
+    color: #ffff;
+}
 
 @media only screen and (max-width: 768px) {
     #content_about p{

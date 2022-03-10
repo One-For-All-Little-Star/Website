@@ -11,30 +11,28 @@ import ChatMessenger from "../components/ChatMessenger";
 
 function Index(props) {
   return (
-    <div>
+    <FullPage duration={1000}>
       <Header></Header>
-      <FullPage>
-        <Slide>
-          <Home />
-        </Slide>
-        <Slide>
-          <Features />
-        </Slide>
-        <Slide>
-          <Tutorial />
-        </Slide>
-        <Slide>
-          <About />
-        </Slide>
-        <Slide>
-          <Contact />
-        </Slide>
-        <Slide>
-          <Download />
-        </Slide>
-        <ChatMessenger />
-      </FullPage>
-    </div>
+      <Slide>
+        <Home />
+      </Slide>
+      <Slide>
+        <Features />
+      </Slide>
+      <Slide>
+        <Tutorial />
+      </Slide>
+      <Slide>
+        <About />
+      </Slide>
+      <Slide>
+        <Contact />
+      </Slide>
+      <Slide>
+        <Download />
+      </Slide>
+      <ChatMessenger />
+    </FullPage>
   );
 }
 
