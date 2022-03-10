@@ -11,7 +11,7 @@ export default function Home() {
           <div className="content_home">
             <h2>Little Star</h2>
             <p>
-              Chào mừng đến với Little Star! Ứng dụng trò chơi dạy tiếng việt
+              Chào mừng đến với Little Star ! Ứng dụng trò chơi dạy tiếng việt
               cho trẻ em từ 2 đến 7 tuổi tạo cảm giác hứng thú với những bài học
               hấp dẫn cùng với những câu đố thú vị đang chờ bạn. Còn chần chừ gì
               nữa hãy trải nghiệm ứng dụng ngay nào!

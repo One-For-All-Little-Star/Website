@@ -1,7 +1,6 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
-import Scrollspy from "react-scrollspy";
 import "../styles/header.css";
 
 function Header() {
@@ -10,48 +9,102 @@ function Header() {
       <Container id="header">
         <Navbar id="basic-navbar-nav">
           <Nav className="me-auto" id="menu">
-            <Scrollspy
-              className="scrollspy"
-              items={["home", "features", "tutorial"]}
-              currentClassName="highlight"
-            >
-              <a className="NavItem" href="#home">
+            <button className="btn-header">
+              <Link
+                activeClass="highlight"
+                className="NavItem"
+                to="home"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={1000}
+                isDynamic={true}
+              >
                 Trang Chủ
-              </a>
-              <a className="NavItem" href="#features">
+              </Link>
+            </button>
+            <button className="btn-header">
+              <Link
+                className="NavItem"
+                to="features"
+                activeClass="highlight"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={1000}
+                isDynamic={true}
+              >
                 Tính Năng
-              </a>
-              <a className="NavItem" href="#tutorial">
+              </Link>
+            </button>
+            <button className="btn-header">
+              <Link
+                className="NavItem"
+                to="tutorial"
+                activeClass="highlight"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={1000}
+                isDynamic={true}
+              >
                 Hướng Dẫn
-              </a>
-            </Scrollspy>
+              </Link>
+            </button>
           </Nav>
         </Navbar>
-        <a href="#home" className="logo_app">
+        <Navbar.Brand href="#home" className="logo_app">
           <img
             src="assets/images/logo/Logo.png"
             className="d-inline-block align-top"
             id="logo"
             alt="Little star logo"
           />
-        </a>
+        </Navbar.Brand>
         <Navbar id="basic-navbar-nav">
           <Nav className="me-auto" id="menu">
-            <Scrollspy
-              className="scrollspy"
-              items={["about", "contact", "download"]}
-              currentClassName="highlight "
-            >
-              <a className="NavItem" href="#about">
+            <button className="btn-header">
+              <Link
+                className="NavItem"
+                to="about"
+                activeClass="highlight"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={1000}
+                isDynamic={true}
+              >
                 Giới Thiệu
-              </a>
-              <a className="NavItem" href="#contact">
+              </Link>
+            </button>
+            <button className="btn-header">
+              <Link
+                className="NavItem"
+                to="contact"
+                activeClass="highlight"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={1000}
+                isDynamic={true}
+              >
                 Liên Hệ
-              </a>
-              <a className="NavItem" href="#download">
+              </Link>
+            </button>
+            <button className="btn-header">
+              <Link
+                className="NavItem"
+                to="download"
+                activeClass="highlight"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={1000}
+                isDynamic={true}
+              >
                 Tải Về
-              </a>
-            </Scrollspy>
+              </Link>
+            </button>
           </Nav>
         </Navbar>
       </Container>
