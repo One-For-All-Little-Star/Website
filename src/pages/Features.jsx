@@ -7,7 +7,6 @@ function Features() {
       <Row id="header_blank"></Row>
       <Row>
         <Container className="col-sm-9" id="container_feature">
-          <h1>Chức năng</h1>
           <Row>
             <div className="col-sm-4">
               {/* Circle 1*/}
@@ -23,8 +22,8 @@ function Features() {
                   </div>
                 </a>
                 <p className="content_feature">
-                  Bé học qua chữ,vần qua hình ảnh sinh động, vui nhộn giúp trẻ
-                  tiếp thu tốt hơn
+                  Bé học chữ, vần qua hình ảnh sinh động, vui nhộn giúp trẻ tiếp
+                  thu tốt hơn
                 </p>
               </div>
               {/* end normal */}

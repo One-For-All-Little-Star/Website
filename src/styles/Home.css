@@ -37,8 +37,9 @@ opacity: 1;}
     color: #f3e718;
 }
 #content_home p{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #ffff;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .content_home{
     padding-left: 10%;
