@@ -15,9 +15,7 @@ function About() {
             Chúng tôi mong muốn góp phần vào sứ mệnh giáo dục nước nhà. Nhằm
             giúp các em nhỏ tăng khả năng tiếp thu ngôn ngữ đặc biệt là ngôn ngữ
             tiếng việt, hỗ trợ cho quá trình học tập và tạo hứng thú, động lực
-            cho trẻ. Ngoài ra, để tránh các em tiếp xúc với nội dung độc hại,
-            Không phù hợp, chúng tôi cung cấp nội dung truyện cổ tích phù hợp
-            với lứa tuổi thiếu nhi.
+            cho trẻ.
           </p>
         </div>
 

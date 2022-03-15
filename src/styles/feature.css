@@ -4439,6 +4439,7 @@
   justify-content: center;
   align-content: center;
   padding-left: 3rem;
+  animation-delay: 5s;
   animation-name: animation;
   animation-duration: 2s;
 }
@@ -4449,20 +4450,32 @@
   margin-left: 1rem;
 }
 .content_feature{
-  color: #fff;
+  color: rgba(0,0,0,.8);
   text-align: center;
   margin-top: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 1200 !important;
+  font-family: 'Nunito', sans-serif;
 }
+@keyframes scale {
+  from {width: 40%;
+      opacity: 0;
+  }
+  to {width: 95%;
+  opacity: 1;}
+  }
 #img_feature{
   width: 70% !important;
   margin-bottom: 1rem;
+  animation-name: scale;
+  animation-duration: 2s ;
 }
 #features{
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  background-image: url('../../public/assets/images/feature/mountoon-min.gif');
+  background-image: url('../../public/assets/images/background/bg_farm.jpg');
+  background-position: center;
 }
 #header_blank{
   height: 20% !important;

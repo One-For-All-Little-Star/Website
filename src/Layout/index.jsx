@@ -7,6 +7,7 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Download from "../pages/Download";
 import { FullPage, Slide } from "react-full-page";
+import "../index.css";
 import ChatMessenger from "../components/ChatMessenger";
 
 function Index(props) {
@@ -17,10 +18,10 @@ function Index(props) {
         <Home />
       </Slide>
       <Slide>
-        <Features />
+        <Tutorial />
       </Slide>
       <Slide>
-        <Tutorial />
+        <Features />
       </Slide>
       <Slide>
         <About />

@@ -1,15 +1,19 @@
 #download{
-    width: 100vw;
+    width: 100vw; 
     height: 100vh;
     background-size: cover;
-    background-image: url('../../public/assets/images/download/backLittle.jpg');
+    background-image: url('../../public/assets/images/background/farm.png');
+    background-position: center center;
 }
 .btn_download{
     border-radius: 50%;
+    border: 20px #ffff solid;
+    background-image: linear-gradient(to bottom, #f3e718 0%, #ebe691 100%);
     width: 12rem;
     height: 12rem;
-    color: #f3e718;
-    background-color: #ffff;
+    color: #ffff;
+    text-shadow: 2px 2px rgb(68, 67, 67);
+    background-color: #f3e718;
     text-align: center;
     font-size: 2rem;
     display: flex;
@@ -18,18 +22,12 @@
     -webkit-animation: xoayvong 8s linear 0s infinite;
     -moz-animation: xoayvong 8s linear 0s infinite;
     -o-animation: xoayvong 8s linear 0s infinite; 
+    
 }
 .btn_download:hover{
     color: #ffff;
     background-color: #f3e718;
 }
-#icon_download{
-    color: #f3e718 !important;
-    font-size: 3.5rem;
-} 
-#icon_download:hover{
-    color: #ffff !important;
-} 
 /* Chrome, Safari, Opera */ 
 @-webkit-keyframes xoayvong {
     from {
@@ -56,8 +54,3 @@
       -o-transform:rotate(360deg);
     }
   }
-
-#googlePlay{
-    width: 90%;
-    height: auto;
-}

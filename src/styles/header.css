@@ -1,24 +1,35 @@
+#header{
+    background-color: rgb(31, 29, 29,0.4);
+    z-index: 0;
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+}
 #basic-navbar-nav{
     width: 38%;
-    
+    z-index: 1 !important;
 }
 .me-auto{
     justify-content: space-around !important;
     width: 100%;
-}
-.scrollspy{
-    display: flex;
-    width: 100% !important;
-    justify-content: space-around !important;
-    padding: 0 !important;
-    margin: 0 !important;
 }
 .NavItem{
     font-size: 1.2rem;
     width: auto;
     color: #f3e718 !important;
     text-decoration: none !important;
+    cursor: pointer;
+    background: transparent;
+    border: none;
 } 
+.NavItem:hover{
+    background: rgba(250, 238, 8, 0.4);
+    transform: rotate(2deg);
+    border-radius: 20% 25% 20% 24%;
+    color: #ffff !important;
+    padding: 8px 4px 4px 8px;
+}
 .logo_app{
     width: 20%;
 }
@@ -34,12 +45,3 @@
     padding: 8px 4px 4px 8px;
     color: #ffff !important;
   }
-.btn-header{
-    background: transparent;
-    border: none;
-}
-.btn-header:hover{
-    background: rgba(250, 238, 8, 0.4);
-    transform: rotate(2deg);
-    border-radius: 20% 25% 20% 24%;
-}
