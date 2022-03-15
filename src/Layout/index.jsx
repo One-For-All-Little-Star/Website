@@ -6,23 +6,33 @@ import Tutorial from "../pages/Tutorial";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Download from "../pages/Download";
-import { Container } from "react-bootstrap";
-import "../styles/index.css";
+import { FullPage, Slide } from "react-full-page";
+import "../index.css";
 
-function index(props) {
+function Index(props) {
   return (
-    <div>
+    <FullPage duration={1000}>
       <Header></Header>
-      <div fluid id="main">
+      <Slide>
         <Home />
-        <Features />
+      </Slide>
+      <Slide>
         <Tutorial />
+      </Slide>
+      <Slide>
+        <Features />
+      </Slide>
+      <Slide>
         <About />
+      </Slide>
+      <Slide>
         <Contact />
+      </Slide>
+      <Slide>
         <Download />
-      </div>
-    </div>
+      </Slide>
+    </FullPage>
   );
 }
 
-export default index;
+export default Index;

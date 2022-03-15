@@ -103,8 +103,8 @@
   display: none;
 }
 .ih-item.circle.effect1.colored .info {
-  background: #1a4a72;
-  background: rgba(26, 74, 114, 0.6);
+  background: #f3e718;
+  background: #f3e718(26, 74, 114, 0.6);
 }
 .ih-item.circle.effect1 .info {
   top: 10px;
@@ -4429,10 +4429,19 @@
   -o-transform: rotateX(0);
   transform: rotateX(0);
 }
+@keyframes animation {
+  from   {padding-left: 0;
+    opacity: 0;}
+  to {padding-left: 3rem;
+    opacity: 1;}
+}
 #container_feature{
   justify-content: center;
   align-content: center;
-  padding-left: 3rem !important;
+  padding-left: 3rem;
+  animation-delay: 5s;
+  animation-name: animation;
+  animation-duration: 2s;
 }
 #container_feature h1{
   color: #fff;
@@ -4441,21 +4450,64 @@
   margin-left: 1rem;
 }
 .content_feature{
-  color: #fff;
+  color: rgba(0,0,0,.8);
   text-align: center;
   margin-top: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 1200 !important;
+  font-family: 'Nunito', sans-serif;
 }
+@keyframes scale {
+  from {width: 40%;
+      opacity: 0;
+  }
+  to {width: 95%;
+  opacity: 1;}
+  }
 #img_feature{
   width: 70% !important;
   margin-bottom: 1rem;
+  animation-name: scale;
+  animation-duration: 2s ;
 }
 #features{
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  background-image: url('../../public/assets/images/background/mountoon.gif');
+  background-image: url('../../public/assets/images/background/bg_farm.jpg');
+  background-position: center;
 }
 #header_blank{
   height: 20% !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .ih-item.circle {
+    width: 180px;
+    height: 180px;
+  }
+  .ih-item.circle .img {
+    position: relative;
+    width: 180px;
+    height: 180px;
+  }
+
+}
+
+@media only screen and (max-width: 426px) {
+  #header_blank{
+    height: 15%;
+  }
+  .ih-item.circle {
+    width: 150px;
+    height: 150px;
+  }
+  .ih-item.circle .img {
+    width: 100px;
+    height: 100px;
+  }
+  #img_feature{
+    display: none;
+  }
 }

@@ -2,39 +2,136 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-image: url('../../public/assets/images/background/night_hill.gif');
+    background-image: url('../../public/assets/images/background/Forest.jpg');
 }
-#email_form{
-    background-color: black;
-    opacity: 80%;
+#container-contact{
+    flex-wrap: wrap;
+}
+#bg_email{
     border-radius: 10%;
     padding: 2rem;
-    color: #ffff;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../../public/assets/images/contact/panel-email.png');
 }
-#email_form h4{
+#first-block{
+    margin-top:2rem;
+}
+#bg_email h4{
     color: #f3e718;
     text-align: center;
 }
 .form-block{
-    margin-top: 1rem;
+    padding-top: 1rem;
 }
-#phone_form{
-    width: 40vw;
-    height: 32vh;
-    background-color: black;
-    opacity: 80%;
-    border-radius: 50px;
-    padding: 2rem;
+.form-control{
+    width: 80%;
+    margin: auto;
+}
+.star-form{
+    color: red;
+}
+.label-form{
+    width: 80%;
+    margin-left: 2rem;
     color: #ffff;
-    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px black;
+}
+#col_phone_row{
+    height: 100%;
+}
+#background{
+    width: 100%;
+    height: 100% !important;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../public/assets/images/contact/road-tree.png');
 }
 .numberPhone{
     font-size: 1.4rem; 
     color: black;
     opacity: 80%;
 }
-#phone_icon{
-    font-size:2rem;
-    color: black;
-    opacity: 80%;
+#email{
+    width: 100%;
+    height: 100%;
 }
+
+.content_contact{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.content_contact h5{
+    color: #ffff;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 1.5rem;
+
+}
+
+/* CSS */
+.btn_contact {
+  width: 80%;
+  margin: auto;
+  background: linear-gradient(to bottom right, #f3e718, #f3eb52);
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  line-height: 2.2rem;
+  outline: transparent;
+  padding: 0 1rem;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.btn_contact:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(255, 255, 255, 0.5), -.125rem -.125rem 1rem rgba(255, 255, 255, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn_contact:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(255, 252, 252, 0.5), -.125rem -.125rem 1rem rgba(255, 255, 255, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.form-control{
+    border-radius: 50px;
+}
+.btn_submit{
+    font-size: 1.4rem; 
+    width: 60%;
+    text-align: center;
+}
+#block-btn{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .numberPhone{
+        font-size: 1rem; 
+    }
+    #phone_form h5{
+        font-size: 1rem;
+    }
+    #icon_phone{
+        display: none;
+        position: relative;
+    }
+    #content_icon{
+        height: 0;
+    }
+    #email_form{
+        display: flex;
+        justify-content: space-around;
+    }
+  }
+ 
+  @media only screen and (max-width: 426px) {
+
+  }
