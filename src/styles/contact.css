@@ -2,40 +2,45 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-image: url('../../public/assets/images/contact/night_hill-min.gif');
+    background-image: url('../../public/assets/images/background/Forest.jpg');
 }
-#email_form{
-    background-color: black;
-    opacity: 80%;
+#container-contact{
+    flex-wrap: wrap;
+}
+#bg_email{
     border-radius: 10%;
     padding: 2rem;
-    color: #ffff;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../../public/assets/images/contact/panel-email.png');
 }
-#email_form h4{
+#first-block{
+    margin-top:2rem;
+}
+#bg_email h4{
     color: #f3e718;
     text-align: center;
 }
 .form-block{
-    margin-top: 1rem;
+    padding-top: 1rem;
+}
+.form-control{
+    width: 80%;
+    margin: auto;
+}
+.star-form{
+    color: red;
+}
+.label-form{
+    width: 80%;
+    margin-left: 2rem;
+    color: #ffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px black;
 }
 #col_phone_row{
     height: 100%;
-}
-#phone_form{
-    width: 100%;
-    height: 100%;
-    padding: 2rem;
-    color: #ffff;
-    text-align: center;
-
-}
-.overlay{
-    z-index: -1;
-    border-radius: 50px;
-    background-color: black;
-    opacity: 80%;
-    width: 100%;
-    height: 100% !important;
 }
 #background{
     width: 100%;
@@ -43,15 +48,10 @@
     border-radius: 50px;
     background-position: center;
     background-size: cover;
-    background-image: url('../../public/assets/images/contact/back.jpg');
+    background-image: url('../../public/assets/images/contact/road-tree.png');
 }
 .numberPhone{
     font-size: 1.4rem; 
-    color: black;
-    opacity: 80%;
-}
-#phone_icon{
-    font-size:1rem;
     color: black;
     opacity: 80%;
 }
@@ -59,26 +59,28 @@
     width: 100%;
     height: 100%;
 }
-#content_icon{
-    width: auto;
-    height: 60%;
-    position: relative;
-    display: flex;
-    justify-content: center
+
+.content_contact{
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
-#icon_phone{
-    width: auto;
-    height: 100%;
-    position: absolute;
+.content_contact h5{
+    color: #ffff;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 1.5rem;
+
 }
 
 /* CSS */
 .btn_contact {
+  width: 80%;
+  margin: auto;
   background: linear-gradient(to bottom right, #f3e718, #f3eb52);
   border: 0;
   border-radius: 50px;
   cursor: pointer;
-  line-height: 2rem;
+  line-height: 2.2rem;
   outline: transparent;
   padding: 0 1rem;
   transition: box-shadow .2s ease-in-out;
@@ -89,21 +91,22 @@
 }
 
 .btn_contact:not([disabled]):focus {
-  box-shadow: 0 0 .25rem rgba(218, 169, 8, 0.5), -.125rem -.125rem 1rem rgba(246, 250, 6, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  box-shadow: 0 0 .25rem rgba(255, 255, 255, 0.5), -.125rem -.125rem 1rem rgba(255, 255, 255, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
 }
 
 .btn_contact:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(206, 193, 15, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  box-shadow: 0 0 .25rem rgba(255, 252, 252, 0.5), -.125rem -.125rem 1rem rgba(255, 255, 255, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
 }
 .form-control{
     border-radius: 50px;
 }
 .btn_submit{
     font-size: 1.4rem; 
-    width: 80%;
+    width: 60%;
     text-align: center;
 }
 #block-btn{
+    padding: 0;
     display: flex;
     justify-content: space-around;
 }

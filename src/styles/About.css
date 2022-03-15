@@ -13,6 +13,7 @@
 }
 #content_about p{
     color: #ffff;
+    font-family: 'Nunito', sans-serif;
 }
 
 @media only screen and (max-width: 768px) {

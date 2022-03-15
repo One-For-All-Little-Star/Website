@@ -47,10 +47,13 @@ class ContactForm extends Component {
       <div className="container" id="email">
         <form className="beta-form-checkout">
           <div className="row">
-            <div className="col-sm-9" id="email_form">
-              <h4>Liên hệ qua Email</h4>
-              <div className="form-block">
-                <label htmlFor="name">Tên *</label>
+            <div className="col-sm-3" />
+            <div className="col-sm-9" id="bg_email">
+              <p></p>
+              <div className="form-block" id="first-block">
+                <label htmlFor="name" className="label-form">
+                  Tên <span className="star-form">*</span>
+                </label>
                 <input
                   className="form-control"
                   type="text"
@@ -61,7 +64,9 @@ class ContactForm extends Component {
                 />
               </div>
               <div className="form-block">
-                <label htmlFor="email">Email *</label>
+                <label htmlFor="email" className="label-form">
+                  Email <span className="star-form">*</span>
+                </label>
                 <input
                   className="form-control"
                   type="email"
@@ -72,7 +77,9 @@ class ContactForm extends Component {
                 />
               </div>
               <div className="form-block">
-                <label htmlFor="email">Bình luận *</label>
+                <label htmlFor="email" className="label-form">
+                  Bình luận <span className="star-form">*</span>
+                </label>
                 <textarea
                   className="form-control"
                   name="comment"
@@ -91,7 +98,6 @@ class ContactForm extends Component {
                 </button>
               </div>
             </div>
-            <div className="col-sm-3" />
           </div>
         </form>
       </div>

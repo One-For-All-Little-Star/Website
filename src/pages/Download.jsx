@@ -10,32 +10,15 @@ function Download(props) {
       <Row id="header_blank"></Row>
       <Row id="header_blank"></Row>
       <Row id="header_blank">
-        <Col lg="1"></Col>
-        <Col lg="1"></Col>
-        <Col lg="1"></Col>
-        <Col lg="3">
-          <Row id="header_blank"></Row>
-          <Col></Col>
-          <img
-            src="assets/images/download/google-play-button.png"
-            className="d-inline-block"
-            id="googlePlay"
-          />
-        </Col>
-        <Col lg="1"></Col>
-        <Col lg="1">
+        <Col lg="8"></Col>
+        <Col lg="2">
           <Container className="btn_download">
             <div>
               <span>Tải ngay</span>
-              <br />
-              <HiDownload id="icon_download" />
             </div>
           </Container>
         </Col>
-        <Col lg="1"></Col>
-        <Col lg="1"></Col>
-        <Col lg="1"></Col>
-        <Col lg="1"></Col>
+        <Col lg="2"></Col>
       </Row>
       <Row id="header_blank"></Row>
     </div>

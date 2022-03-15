@@ -1,24 +1,43 @@
 import React from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import "../styles/Home.css";
+import { MdOutlineTaskAlt } from "react-icons/md";
 export default function Home() {
   return (
     <Container fluid className="transition-fade" id="home">
       <Row id="header_blank"></Row>
       <Row>
-        <Col lg="5" id="content_home">
+        <Col id="col_content_home">
           <Row id="header_blank"></Row>
           <div className="content_home">
             <h2>Little Star</h2>
-            <p>
-              Ứng dụng trò chơi dạy tiếng việt cho trẻ em từ 3 đến 7 tuổi tạo
-              cảm giác hứng thú với những bài học hấp dẫn cùng với những câu
-              truyện cổ tích. Hãy trải nghiệm ứng dụng ngay nào!
-            </p>
+            <p>Ứng dụng trò chơi học và xem tiếng việt cho bé từ 3 đến 7.</p>
+            <Row>
+              <Col>
+                <div className="item_home">
+                  <MdOutlineTaskAlt className="icon_task" />
+                  &nbsp; Chương trình dễ hiểu
+                </div>
+                <div className="item_home">
+                  <MdOutlineTaskAlt className="icon_task" />
+                  &nbsp; Bé được chơi mà học
+                </div>
+              </Col>
+              <Col className="row_item_home">
+                <div className="item_home">
+                  <MdOutlineTaskAlt className="icon_task" />
+                  &nbsp; Mọi lúc mọi nơi
+                </div>
+                <div className="item_home">
+                  <MdOutlineTaskAlt className="icon_task" />
+                  &nbsp; Luyện nghe, nói, viết
+                </div>
+              </Col>
+            </Row>
             <button className="custom-btn btn_home"> Tải ngay </button>
           </div>
         </Col>
-        <Col lg="7" className="mockup_home">
+        <Col className="mockup_home">
           <img
             src="assets/images/home/mockup.png"
             className="d-inline-block"
