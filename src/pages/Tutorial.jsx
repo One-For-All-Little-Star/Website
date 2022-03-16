@@ -8,16 +8,7 @@ function Tutorial(props) {
     <div id="tutorial">
       <Row id="header_blank"></Row>
       <Row id="banner_video">
-        <Col className="col_video">
-          <iframe
-            id="video"
-            src="https://www.youtube.com/embed/AW9lOIlGNqM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </Col>
+        <Col className="col_video"></Col>
         <Col id="content_video">
           <h1> Little Star người bạn thân thiết của bé</h1>
           <p>
@@ -28,9 +19,6 @@ function Tutorial(props) {
             ra cánh cửa kiến thức và khơi dậy niềm cảm hứng với ngôn ngữ.
           </p>
         </Col>
-      </Row>
-      <Row id="container_carousel">
-        <Multi />
       </Row>
     </div>
   );

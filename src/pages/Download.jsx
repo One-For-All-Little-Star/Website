@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/download.css";
-import { Button, Col, Row, Container } from "react-bootstrap";
-import { HiDownload } from "react-icons/hi";
+import { Col, Row, Container } from "react-bootstrap";
 
 function Download(props) {
   return (

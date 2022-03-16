@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Row, Col } from "react-bootstrap";
 import ContactForm from "../components/Form";
 import "../styles/contact.css";
-import { BiMessageRoundedDetail } from "react-icons/bi";
 import { FiPhoneCall } from "react-icons/fi";
 
 function Contact(props) {
