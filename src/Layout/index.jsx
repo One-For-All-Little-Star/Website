@@ -6,13 +6,14 @@ import Tutorial from "../pages/Tutorial";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Download from "../pages/Download";
+import Messager from "../components/ChatMessenger";
 import { FullPage, Slide } from "react-full-page";
 import "../index.css";
 
-function Index(props) {
+function Index() {
   return (
-    <FullPage duration={1000}>
-      <Header></Header>
+    <FullPage>
+      <Header />
       <Slide>
         <Home />
       </Slide>
@@ -31,6 +32,7 @@ function Index(props) {
       <Slide>
         <Download />
       </Slide>
+      <Messager />
     </FullPage>
   );
 }

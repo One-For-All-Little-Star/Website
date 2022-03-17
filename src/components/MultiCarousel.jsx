@@ -30,31 +30,31 @@ class Multicarousel extends Component {
         <div className="mean">
           <Image
             className="carousel_elm"
-            src="assets/images/feature/level map.png"
+            src="assets/images/introduction/letter.png"
           />
         </div>
         <div className="mean">
           <Image
             className="carousel_elm"
-            src="assets/images/feature/level map.png"
+            src="assets/images/introduction/letter.png"
           />
         </div>
         <div className="mean">
           <Image
             className="carousel_elm"
-            src="assets/images/feature/level map.png"
+            src="assets/images/introduction/level.png"
           />
         </div>
         <div className="mean">
           <Image
             className="carousel_elm"
-            src="assets/images/feature/level map.png"
+            src="assets/images/introduction/video.png"
           />
         </div>
         <div className="mean">
           <Image
             className="carousel_elm"
-            src="assets/images/feature/level map.png"
+            src="assets/images/introduction/video.png"
           />
         </div>
       </Carousel>

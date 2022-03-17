@@ -1,18 +1,23 @@
 #tutorial{
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-size: cover;
     background-image: url('../../public/assets/images/background/Sky.jpg');
     background-position: bottom;
 
 }
+#banner_video{
+    height: 40%;
+    width: 90%;
+    margin: auto;
+}
 #container_carousel{
+    height: 40%;
     width: 90%;
     margin: auto;
     padding-top: 1rem;
 }
 #video{
-    opacity: 100% !important;
     z-index: 1;
     width: 100%;
     height: 100%;
