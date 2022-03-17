@@ -13,9 +13,12 @@ function Download(props) {
         <Col lg="8"></Col>
         <Col lg="2">
           <Container className="btn_download">
-            <div>
-              <span>Tải ngay</span>
-            </div>
+            <a
+              className="link-app"
+              href="https://drive.google.com/file/d/1eKx2xy5L0pThYEsimYRFJPjhwSn-c7AW/view?usp=sharing"
+            >
+              Tải ngay
+            </a>
           </Container>
         </Col>
         <Col lg="2"></Col>
