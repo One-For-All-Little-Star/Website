@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/contact.css";
-
+import swal from "sweetalert";
 class ContactForm extends Component {
   constructor(props) {
     super(props);
@@ -34,18 +34,21 @@ class ContactForm extends Component {
       })
       .then(
         (result) => {
-          alert("Cảm ơn bạn đã gửi phản hồi cho chúng tôi");
-          console.log(result.text);
+          swal(
+            "Good job!",
+            "Cảm ơn bạn đã gửi phản hồi cho chúng tôi!",
+            "success"
+          );
         },
         (error) => {
-          console.log(error.text);
+          swal("Xảy ra lỗi gửi không thành công!");
         }
       );
   };
   render() {
     return (
       <div className="container" id="email">
-        <form className="beta-form-checkout">
+        <form className="beta-form-checkout" onSubmit={this.onSubmit}>
           <div className="row">
             <div className="col-sm-3" />
             <div className="col-sm-9" id="bg_email">
@@ -90,10 +93,7 @@ class ContactForm extends Component {
               </div>
               <br />
               <div className="form-block" id="block-btn">
-                <button
-                  className="btn_submit btn_contact"
-                  onClick={this.onSubmit}
-                >
+                <button className="btn_submit btn_contact" type="submit">
                   Gửi đi
                 </button>
               </div>

@@ -4476,11 +4476,6 @@
   background-image: url('../../public/assets/images/background/bg_farm.jpg');
   background-position: center;
 }
-#header_blank{
-  height: 20% !important;
-}
-
-
 @media only screen and (max-width: 768px) {
   .ih-item.circle {
     width: 180px;

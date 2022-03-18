@@ -24,3 +24,15 @@ html{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
+#root{
+  height: 100vh !important;
+}
+#header_blank{
+  height: 20%;
+}
+#slide{
+  margin: 0;
+  width: 0;
+  height: auto !important;
+  padding: 0;
+}

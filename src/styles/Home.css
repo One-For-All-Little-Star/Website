@@ -5,9 +5,7 @@
     background-image: url('../../public/assets/images/background/night_hill.gif');
     background-position: bottom !important;
 }
-#header_blank{
-    height: 20%;
-}
+
 .mockup_home{
   width: 55%;
   display: flex;
