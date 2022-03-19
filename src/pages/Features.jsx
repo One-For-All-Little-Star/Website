@@ -3,7 +3,7 @@ import "../styles/feature.css";
 import { Row, Container } from "react-bootstrap";
 function Features() {
   return (
-    <div id="features" className="transition-fade">
+    <div id="features">
       <Row id="header_blank"></Row>
       <Row>
         <Container className="col-sm-9" id="container_feature">

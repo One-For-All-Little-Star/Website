@@ -28,6 +28,7 @@
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.5",
     "react-scrollspy": "^3.4.3",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^2.1.2"
   },
   "scripts": {

@@ -1,22 +1,24 @@
 import React from "react";
-import { Col, Row, Container } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import "../styles/Home.css";
 import { MdOutlineTaskAlt } from "react-icons/md";
 export default function Home() {
   return (
-    <Container fluid className="transition-fade" id="home">
+    <div id="home">
       <Row id="header_blank"></Row>
       <Row>
         <Col id="col_content_home">
           <Row id="header_blank"></Row>
           <div className="content_home">
             <h2>Little Star</h2>
-            <p>Ứng dụng trò chơi học và xem tiếng việt cho bé từ 3 đến 7.</p>
+            <p>
+              Ứng dụng học tiếng việt và xem truyện tranh cho bé từ 3 đến 7.
+            </p>
             <Row>
               <Col>
                 <div className="item_home">
                   <MdOutlineTaskAlt className="icon_task" />
-                  &nbsp; Chương trình dễ hiểu
+                  &nbsp; Nội dung phù hợp
                 </div>
                 <div className="item_home">
                   <MdOutlineTaskAlt className="icon_task" />
@@ -46,6 +48,6 @@ export default function Home() {
           />
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 }

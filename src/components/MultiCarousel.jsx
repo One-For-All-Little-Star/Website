@@ -30,7 +30,7 @@ class Multicarousel extends Component {
         <div className="mean">
           <Image
             className="carousel_elm"
-            src="assets/images/introduction/letter.png"
+            src="assets/images/introduction/home.png"
           />
         </div>
         <div className="mean">

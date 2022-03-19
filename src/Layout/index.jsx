@@ -6,33 +6,33 @@ import Tutorial from "../pages/Tutorial";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Download from "../pages/Download";
-import Messager from "../components/ChatMessenger";
+import ChatMessenger from "../components/ChatMessenger";
 import { FullPage, Slide } from "react-full-page";
 import "../index.css";
 
 function Index() {
   return (
-    <FullPage>
+    <FullPage duration="600">
       <Header />
-      <Slide>
+      <Slide id="slide">
         <Home />
       </Slide>
-      <Slide>
+      <Slide id="slide">
         <Tutorial />
       </Slide>
-      <Slide>
+      <Slide id="slide">
         <Features />
       </Slide>
-      <Slide>
+      <Slide id="slide">
         <About />
       </Slide>
-      <Slide>
+      <Slide id="slide">
         <Contact />
       </Slide>
-      <Slide>
+      <Slide id="slide">
         <Download />
       </Slide>
-      <Messager />
+      <ChatMessenger />
     </FullPage>
   );
 }
