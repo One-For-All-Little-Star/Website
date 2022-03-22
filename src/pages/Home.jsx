@@ -8,14 +8,14 @@ export default function Home() {
       <Row id="header_blank"></Row>
       <Row>
         <Col id="col_content_home">
-          <Row id="header_blank"></Row>
+          <Row id="home_blank"></Row>
           <div className="content_home">
             <h2>Little Star</h2>
             <p>
               Ứng dụng học tiếng việt và xem truyện tranh cho bé từ 3 đến 7.
             </p>
             <Row>
-              <Col>
+              <Col className="row_item_home">
                 <div className="item_home">
                   <MdOutlineTaskAlt className="icon_task" />
                   &nbsp; Nội dung phù hợp
@@ -28,7 +28,7 @@ export default function Home() {
               <Col className="row_item_home">
                 <div className="item_home">
                   <MdOutlineTaskAlt className="icon_task" />
-                  &nbsp; Mọi lúc mọi nơi
+                  &nbsp; Học mọi lúc mọi nơi
                 </div>
                 <div className="item_home">
                   <MdOutlineTaskAlt className="icon_task" />
@@ -39,14 +39,14 @@ export default function Home() {
             <button className="custom-btn btn_home"> Tải ngay </button>
           </div>
         </Col>
-        <Col className="mockup_home">
+        <div className="mockup_home">
           <img
             src="assets/images/home/mockup.png"
             className="d-inline-block"
             id="mockup"
             alt="Little star logo"
           />
-        </Col>
+        </div>
       </Row>
     </div>
   );

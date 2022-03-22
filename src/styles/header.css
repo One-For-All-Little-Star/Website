@@ -4,7 +4,9 @@
     border-radius: 50px;
     width: 90%;
     margin: auto;
-    margin-top: 5px;
+}
+.navbar {
+    padding: 0;
 }
 #basic-navbar-nav{
     width: 38%;
@@ -36,7 +38,7 @@
 
 #logo{
     width: 100%;
-    height: 5rem;
+    height: 4.5rem;
 }
 .highlight {
     background: rgba(250, 238, 8, 0.4);

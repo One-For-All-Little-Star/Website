@@ -7,9 +7,9 @@ function Features() {
       <Row id="header_blank"></Row>
       <Row>
         <Container className="col-sm-9" id="container_feature">
-          <Row id="header_blank"></Row>
+          <Row id="feat_blank"></Row>
           <Row>
-            <div className="col-sm-4">
+            <div className="col-sm-4" id="circle_item">
               {/* Circle 1*/}
               <div className="ih-item circle colored effect2 left_to_right">
                 <a href="#">
@@ -29,7 +29,7 @@ function Features() {
               </div>
               {/* end normal */}
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4" id="circle_item">
               {/* Circle 2 */}
               <div className="ih-item circle colored effect2 left_to_right">
                 <a href="#">
@@ -46,7 +46,7 @@ function Features() {
                 </p>
               </div>
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4" id="circle_item">
               {/* Circle 3 */}
               <div className="ih-item circle colored effect2 left_to_right">
                 <a href="#">
@@ -65,13 +65,7 @@ function Features() {
             </div>
           </Row>
         </Container>
-        <div className="col-sm-3">
-          <img
-            id="img_feature"
-            src="assets/images/characters/full_huy.png"
-            alt=""
-          />
-        </div>
+        <div className="col-sm-3"></div>
       </Row>
     </div>
   );

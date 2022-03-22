@@ -19,10 +19,10 @@ function About() {
           </p>
         </div>
 
-        <Container className="col-sm-6">
+        <Container className="col-sm-6" id="carousel">
           <Carousel></Carousel>
+          <div className="col-sm-1"></div>
         </Container>
-        <div className="col-sm-1"></div>
       </Row>
     </div>
   );

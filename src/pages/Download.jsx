@@ -9,21 +9,19 @@ function Download(props) {
       <Row id="header_blank"></Row>
       <Row id="header_blank"></Row>
       <Row id="header_blank"></Row>
-      <Row id="header_blank">
-        <Col lg="8"></Col>
-        <Col lg="2">
-          <Container className="btn_download">
-            <a
-              className="link-app"
-              href="https://drive.google.com/file/d/1eKx2xy5L0pThYEsimYRFJPjhwSn-c7AW/view?usp=sharing"
-            >
-              Tải ngay
-            </a>
-          </Container>
-        </Col>
-        <Col lg="2"></Col>
-      </Row>
       <Row id="header_blank"></Row>
+      <Row id="header_blank">
+        <Col lg="4"></Col>
+        <Col lg="4">
+          <a
+            className="btn_download"
+            href="https://drive.google.com/file/d/1eKx2xy5L0pThYEsimYRFJPjhwSn-c7AW/view?usp=sharing"
+          >
+            Tải ngay
+          </a>
+        </Col>
+        <Col lg="4"></Col>
+      </Row>
     </div>
   );
 }

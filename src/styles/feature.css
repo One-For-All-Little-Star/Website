@@ -4429,17 +4429,10 @@
   -o-transform: rotateX(0);
   transform: rotateX(0);
 }
-@keyframes animation {
-  from   {padding-left: 0;
-    opacity: 0;}
-  to {padding-left: 3rem;
-    opacity: 1;}
-}
 #container_feature{
   justify-content: center;
   align-content: center;
   padding-left: 3rem;
-  animation-name: animation;
   animation-duration: 2s;
 }
 #container_feature h1{
@@ -4453,55 +4446,58 @@
   text-align: center;
   margin-top: 1rem;
   font-size: 1.2rem;
-  font-weight: 1200 !important;
   font-family: 'Nunito', sans-serif;
 }
-@keyframes scale {
-  from {width: 40%;
-      opacity: 0;
-  }
-  to {width: 95%;
-  opacity: 1;}
-  }
-#img_feature{
-  width: 70% !important;
-  margin-bottom: 1rem;
-  animation-name: scale;
-  animation-duration: 2s ;
+#feat_blank{
+  height: 20%;
 }
+
 #features{
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  background-image: url('../../public/assets/images/background/bg_farm.jpg');
-  background-position: center;
+  background-image: url('../../public/assets/images/background/fairy.jpg');
+  background-position: bottom;
 }
 @media only screen and (max-width: 768px) {
   .ih-item.circle {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   }
   .ih-item.circle .img {
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
+  }
+  .content_home p{
+      font-size: 1rem;
   }
 
 }
 
 @media only screen and (max-width: 426px) {
+  #features{
+    background-position: right;
+  }
   #header_blank{
     height: 15%;
   }
+  #feat_blank{
+    height: 10%;
+  }
+  #circle_item{
+    margin-bottom: 1rem;
+  }
   .ih-item.circle {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
   .ih-item.circle .img {
-    width: 100px;
-    height: 100px;
+    position: relative;
+    width: 120px;
+    height: 120px;
   }
-  #img_feature{
+  .content_feature{
     display: none;
   }
 }
