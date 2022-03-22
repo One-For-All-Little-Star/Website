@@ -50,7 +50,7 @@ class ContactForm extends Component {
       <div className="container" id="email">
         <form className="beta-form-checkout" onSubmit={this.onSubmit}>
           <div className="row">
-            <div className="col-sm-3" />
+            <div className="col-sm-3" id="col_blank" />
             <div className="col-sm-9" id="bg_email">
               <p></p>
               <div className="form-block" id="first-block">

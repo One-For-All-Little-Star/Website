@@ -4,9 +4,6 @@
     background-size: cover;
     background-image: url('../../public/assets/images/background/Forest.jpg');
 }
-#container-contact{
-    flex-wrap: wrap;
-}
 #bg_email{
     border-radius: 10%;
     padding: 2rem;
@@ -50,11 +47,6 @@
     background-size: cover;
     background-image: url('../../public/assets/images/contact/road-tree.png');
 }
-.numberPhone{
-    font-size: 1.4rem; 
-    color: black;
-    opacity: 80%;
-}
 #email{
     width: 100%;
     height: 100%;
@@ -74,12 +66,12 @@
 
 /* CSS */
 .btn_contact {
-  width: 80%;
+  font-size: 1.4rem;
+  width: 90%;
   margin: auto;
   background: linear-gradient(to bottom right, #f3e718, #f3eb52);
   border: 0;
   border-radius: 50px;
-  cursor: pointer;
   line-height: 2.2rem;
   outline: transparent;
   padding: 0 1rem;
@@ -88,8 +80,12 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
+  text-decoration: none;
+  color:white;
 }
-
+.btn_contact:hover {
+    color: black;
+  }
 .btn_contact:not([disabled]):focus {
   box-shadow: 0 0 .25rem rgba(255, 255, 255, 0.5), -.125rem -.125rem 1rem rgba(255, 255, 255, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
 }
@@ -113,15 +109,8 @@
 
 
 @media only screen and (max-width: 768px) {
-    .numberPhone{
-        font-size: 1rem; 
-    }
     #phone_form h5{
         font-size: 1rem;
-    }
-    #icon_phone{
-        display: none;
-        position: relative;
     }
     #content_icon{
         height: 0;
@@ -130,8 +119,52 @@
         display: flex;
         justify-content: space-around;
     }
+    #col_blank{
+        display: none;
+    }
+    #bg_email{
+        width: 100%;
+    }
+    #div_form{
+        width: 50%;
+    }
+    #col_phone{
+        width: 50%;
+    }
+    #background{
+        width: 80%;
+    }
+    .content_contact h5{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .content_contact{
+        width: 70%; 
+    }
+    .btn_contact{
+        font-size: 1rem;
+        width: 70%;
+        line-height: 1.5rem;
+    }
   }
  
   @media only screen and (max-width: 426px) {
+    #div_form{
+        display: none;
+    }
+    #container-contact{
+        width: 100%;
+        height: 60%;
+        margin: auto;
+    }
+    #col_phone{
+        width: 100%;
+    }
+    #background{
+        width: 100%;
+    }
+    .btn_contact{
+        margin-top: 1rem;
 
+    }
   }
