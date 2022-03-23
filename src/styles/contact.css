@@ -146,6 +146,12 @@
         width: 70%;
         line-height: 1.5rem;
     }
+    .form-block{
+        padding-top: 0;
+    }
+    .label-form{
+        font-size: 1rem;
+    }
   }
  
   @media only screen and (max-width: 426px) {

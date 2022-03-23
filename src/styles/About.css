@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-image: url('../../public/assets/images/about/back.gif');
+    background-image: url('../../public/assets/images/background/night.jpg');
 }
 #carousel_img{
     border-radius: 12%;
