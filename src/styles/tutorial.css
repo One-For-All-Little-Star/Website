@@ -16,6 +16,7 @@
     width: 90%;
     margin: auto;
     padding-top: 1rem;
+    z-index: 0;
 }
 #content_video p{
     margin: auto;

@@ -2,8 +2,8 @@
     width: 100vw;
     height: 100%;
     background-size: cover;
-    background-image: url('../../public/assets/images/background/night_hill.gif');
-    background-position: bottom !important; 
+    background-image: url('../../public/assets/images/background/night-fairy.jpg');
+    background-position: center center !important; 
 }
 
 .mockup_home{
@@ -64,7 +64,7 @@ opacity: 1;}
 .btn_home {
   background: rgb(255,151,0);
   border: none;
-  z-index: 1;
+  z-index: 0;
   }
 
   .btn_home:after {
@@ -96,14 +96,15 @@ opacity: 1;}
     top: 2px;
   }
   .custom-btn {
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
     width: 80% !important;
     border-radius: 50px !important; 
     height: fit-content;
-    color: #fff;
+    color: #f3e718;
+    text-shadow: 1px 1px #000;
     font-weight: 300;
     padding: 2px 0px;
-    background: transparent;
+    background: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -120,6 +121,8 @@ opacity: 1;}
     }
     .content_home p{
       color: #ffff;
+      font-size: 1.2rem;
+      text-align: center;
     }
     .content_home{
     text-align: center;
@@ -130,7 +133,9 @@ opacity: 1;}
   #mockup{
       display: none !important;
     }
-   
+    .item_home{
+      font-size: 1rem;
+    }
   }
    
   @media only screen and (max-width: 426px) {
@@ -143,10 +148,6 @@ opacity: 1;}
       font-weight: 200;
       padding: 2px 0px;
     }
-    .content_home p{
-      font-family: 'Nunito';
-        font-size: 1.2rem;
-        color: #ffff;
-    }
+
   }
   

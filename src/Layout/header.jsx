@@ -2,11 +2,12 @@ import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
 import "../styles/header.css";
+import MenuMobile from "../components/MenuMobile";
 
 function Header() {
   return (
     <Navbar id="header" expand="lg" fixed="top">
-      <Container>
+      <Container id="con-id">
         <Navbar id="basic-navbar-nav">
           <Nav className="me-auto" id="menu">
             <Link
@@ -96,6 +97,7 @@ function Header() {
           </Nav>
         </Navbar>
       </Container>
+      <MenuMobile id="menuMobile" />
     </Navbar>
   );
 }

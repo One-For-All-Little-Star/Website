@@ -39,4 +39,13 @@
 }
 
 @media only screen and (max-width: 426px) {
+  .btn_download{
+    position: relative;
+    margin-top: 25%;
+  }
+  #download{
+    background-size: cover;
+    background-image: url('../../public/assets/images/background/farm-mobile.jpg');
+    background-position: center;
+  }
 }
