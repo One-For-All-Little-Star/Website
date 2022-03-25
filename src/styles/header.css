@@ -28,7 +28,7 @@
 .NavItem:hover{
     background: rgba(250, 238, 8, 0.4);
     transform: rotate(2deg);
-    border-radius: 20% 25% 20% 24%;
+    border-radius: 30% 30% 35% 35%; 
     color: #ffff !important;
     padding: 8px 4px 4px 8px;
 }
@@ -59,7 +59,7 @@
 .highlight {
     background: rgba(250, 238, 8, 0.4);
     transform: rotate(2deg);
-    border-radius: 20% 25% 20% 24%;
+    border-radius: 30% 30% 35% 35%;
     padding: 8px 4px 4px 8px;
     color: #ffff !important;
   }
