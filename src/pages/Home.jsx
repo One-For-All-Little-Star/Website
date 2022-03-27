@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "../styles/Home.css";
 import { MdOutlineTaskAlt } from "react-icons/md";
+import { Link } from "react-scroll";
 export default function Home() {
   return (
     <div id="home">
@@ -36,7 +37,20 @@ export default function Home() {
                 </div>
               </Col>
             </Row>
-            <button className="custom-btn btn_home"> Tải ngay </button>
+            <button className="custom-btn btn_home">
+              <Link
+                className="NavItem"
+                to="download"
+                activeClass="highlight"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                duration={1000}
+                isDynamic={true}
+              >
+                Tải Ngay
+              </Link>
+            </button>
           </div>
         </Col>
         <div className="mockup_home">

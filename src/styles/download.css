@@ -41,7 +41,7 @@
 @media only screen and (max-width: 426px) {
   .btn_download{
     position: relative;
-    margin-top: 25%;
+    margin-top: 30%;
   }
   #download{
     background-size: cover;

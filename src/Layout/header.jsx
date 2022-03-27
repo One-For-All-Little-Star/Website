@@ -32,7 +32,7 @@ function Header() {
               duration={1000}
               isDynamic={true}
             >
-              Giới thiệu
+              Giới Thiệu
             </Link>
             <Link
               className="NavItem"
@@ -68,7 +68,7 @@ function Header() {
               duration={1000}
               isDynamic={true}
             >
-              Chúng tôi
+              Chúng Tôi
             </Link>
             <Link
               className="NavItem"
