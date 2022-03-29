@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/download.css";
-import { Button, Col, Row, Container } from "react-bootstrap";
-import { HiDownload } from "react-icons/hi";
+import { Col, Row } from "react-bootstrap";
 
 function Download(props) {
   return (
@@ -15,7 +14,7 @@ function Download(props) {
         <Col lg="4">
           <a
             className="btn_download"
-            href="https://drive.google.com/file/d/181Mpg0I8wA8ze_0PeKNhbiPEiuxVGujo/view?usp=sharing"
+            href="https://drive.google.com/u/1/uc?id=181Mpg0I8wA8ze_0PeKNhbiPEiuxVGujo&export=download"
           >
             Tải ngay
           </a>
