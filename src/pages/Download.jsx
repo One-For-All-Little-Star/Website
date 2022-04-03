@@ -14,7 +14,7 @@ function Download(props) {
         <Col lg="4">
           <a
             className="btn_download"
-            href="https://drive.google.com/u/1/uc?id=181Mpg0I8wA8ze_0PeKNhbiPEiuxVGujo&export=download"
+            href="https://drive.google.com/drive/u/1/folders/1XDMKR49Lrte7F_7Rr2wP6Qtl6KJIQCB5"
           >
             Tải ngay
           </a>
